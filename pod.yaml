@@ -16,4 +16,5 @@ spec:
       mountPath: /storage
   volumes:
   - name: app-storage
-    HostPath: {}
+    hostPath:
+      path: "/tmp/pod-storage"
