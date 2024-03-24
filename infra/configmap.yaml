@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: example-configmap
 data:
-  key1: 11
+  key1: string
   key2: doctorwho!?
